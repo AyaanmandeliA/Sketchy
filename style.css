@@ -1,0 +1,31 @@
+body{
+    background-color: darkgoldenrod;
+}
+
+h1{
+color: darkred;
+font-weight: bold;
+background-color: darkgray;
+}
+#Show_Suuuug{
+    float: right;
+    margin-right: 4px;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 100px;
+    animation-name: hufflepuff;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes hufflepuff{
+    from{box-shadow: 1px 1px 30px red;}
+    to {box-shadow: 1px 1px 30px greenyellow;}
+}
+
+p{
+    font-size: 26px;
+    color: white;
+}
